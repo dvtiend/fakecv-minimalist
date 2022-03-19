@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+.card-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: rgb(9,120,121);
+    background: linear-gradient(126deg, rgba(9,120,121,1) 0%, rgba(0,212,255,1) 100%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.hero-image {
+    height: 220px;
+    /* background-color: blue; */
+    background-image: url("../img/usman-yousaf-bQEhoSB7JZc-unsplash.jpg");
+    background-size: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.name-title {
+    padding: 50px 15px;
+    color: #fff;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-size: 1.7em;
+}
+
+.title {
+    font-size: .9em;
+}
+
+.section {
+    background-color: #fff;
+    padding: 45px 15px;
+    border-bottom: 5px solid #f8f8f8;
+}
+
+.section h4 {
+    border-bottom: 2px solid rgba(147, 174, 224, .6);
+    display: inline;
+    padding: 0 20px 20px 0;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+.section p {
+    line-height: 1.8em;
+    color: rgb(105, 105, 105);
+    margin-bottom: 20px;
+    font-size: .9em;
+}
+
+ul {
+    padding-left: 0px;
+    margin-bottom: 40px;
+}
+
+ul > li {
+    padding: 5px 0;
+    color: rgb(105, 105, 105);
+    list-style-type: none;
+    font-size: .9em;
+}
+
+ul > li::before {
+    content:'✔️';
+    margin-right: 10px;
+}
